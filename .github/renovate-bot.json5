@@ -1,6 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "username": "mchestr[bot]",
-  "gitAuthor": "mchestr-bot <202745+mchestr-bot[bot]@users.noreply.github.com>",
-  "repositories": ["mchestr/containers-mirror"]
-}

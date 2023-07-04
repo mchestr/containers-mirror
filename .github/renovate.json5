@@ -14,6 +14,9 @@
   "platform": "github",
   "onboarding": false,
   "requireConfig": "optional",
+  "username": "mchestr[bot]",
+  "gitAuthor": "mchestr-bot <202745+mchestr-bot[bot]@users.noreply.github.com>",
+  "repositories": ["mchestr/containers-mirror"]
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],
   "rebaseWhen": "conflicted",
