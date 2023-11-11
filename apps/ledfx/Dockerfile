@@ -44,7 +44,7 @@ RUN if [ "$TARGETPLATFORM" = "linux/arm/v7" ]; then ARCHITECTURE=armhf; elif [ "
 
 RUN apt-get install -fy ./snapclient.deb
 
-COPY setup-files/ /app/
+COPY apps/ledfx/setup-files/ /app/
 RUN chmod a+wrx /app/*
 
 ENTRYPOINT ./entrypoint.sh
