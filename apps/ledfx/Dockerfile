@@ -6,13 +6,13 @@ RUN pip install Cython
 RUN dpkg --add-architecture armhf
 RUN apt-get update
 RUN apt-get install -y gcc \
-                       git \
-                       libatlas3-base \
-		       libavformat58 \
-		       portaudio19-dev \
-		       avahi-daemon \
-		       pulseaudio \
-           python3-numpy
+                      git \
+                      libatlas3-base \
+                      libavformat58 \
+                      portaudio19-dev \
+                      avahi-daemon \
+                      pulseaudio \
+                      python3-dev && apt-get purge -y gcc python3-dev && apt-get clean -y && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
 RUN pip install --upgrade pip wheel setuptools
 RUN pip install lastversion
 RUN pip install git+https://github.com/LedFx/LedFx.git@v2.0.74
