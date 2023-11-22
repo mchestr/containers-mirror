@@ -1,1 +1,1 @@
-FROM docker.io/gotenberg/gotenberg:7.9.2
+FROM docker.io/gotenberg/gotenberg:7.10.0
