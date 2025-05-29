@@ -1,1 +1,1 @@
-FROM docker.io/acockburn/appdaemon:4.5.3
+FROM docker.io/acockburn/appdaemon:4.5.4
