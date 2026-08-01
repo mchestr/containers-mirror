@@ -1,1 +1,1 @@
-FROM docker.io/louislam/uptime-kuma:2.4.0
+FROM docker.io/louislam/uptime-kuma:2.5.0
